@@ -145,3 +145,54 @@ a{
 .badge:hover{
     opacity: 1;
 }
+
+.dark-badge{
+    background-color: black;
+    color:white;
+}
+
+.sticky-nav{
+    position:sticky;
+    top:0;
+    background-color:#121212;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.sticky-nav-icons img{
+    margin-left: 0.75rem;
+    opacity: 0.5;
+}
+
+.sticky-nav-icons img:hover{
+    opacity:1;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.user-icon{
+    font-size: 1.75rem;
+    margin-top: 0.5rem;
+    opacity: 0.75;
+}
+
+.user-icon:hover{
+    opacity: 1;
+}
+
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
+
